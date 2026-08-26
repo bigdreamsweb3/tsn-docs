@@ -30,7 +30,8 @@
     "icon": "book-open",
     "url": "whitepaper"
   },
-  "navigation": [
+  "navigation": {
+    "groups": [
     {
       "group": "Overview",
       "pages": [
@@ -74,7 +75,8 @@
         "guides/cross-chain-settlement"
       ]
     }
-  ],
+    ]
+  },
   "footerSocials": {
     "x": "https://x.com/0xbigdream",
     "github": "https://github.com/bigdreamsweb3/trustlink-pay"
