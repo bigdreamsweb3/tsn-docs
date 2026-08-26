@@ -13,8 +13,8 @@
   },
   "topbarLinks": [
     {
-      "name": "Whitepaper",
-      "url": "whitepaper"
+      "name": "TrustLink Labs",
+      "url": "about/trustlink-labs"
     },
     {
       "name": "GitHub",
@@ -26,12 +26,19 @@
     "url": "developers/getting-started"
   },
   "topAnchor": {
-    "name": "Whitepaper",
+    "name": "TrustLink Labs",
     "icon": "book-open",
-    "url": "whitepaper"
+    "url": "about/trustlink-labs"
   },
   "navigation": {
     "groups": [
+    {
+      "group": "Overview",
+      "pages": [
+        "overview/introduction",
+        "overview/how-it-works"
+      ]
+    },
     {
       "group": "Architecture",
       "pages": [
@@ -66,6 +73,12 @@
       "group": "Guides",
       "pages": [
         "guides/cross-chain-settlement"
+      ]
+    },
+    {
+      "group": "TrustLink Labs",
+      "pages": [
+        "about/trustlink-labs"
       ]
     }
     ]

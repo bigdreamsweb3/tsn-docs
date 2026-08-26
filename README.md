@@ -2,7 +2,7 @@
 
 Mintlify documentation site for TSN.
 
-- [Whitepaper](whitepaper.md) — full protocol specification
+- [TrustLink Labs](about/trustlink-labs.md) — the team building TSN
 - [Get Started](developers/getting-started.md)
 
 ## Run locally
