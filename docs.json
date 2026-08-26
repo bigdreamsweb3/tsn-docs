@@ -2,10 +2,10 @@
   "theme": "mint",
   "name": "TSN",
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/tsn-icon.png",
+    "dark": "/images/tsn-icon.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/tsn-icon.png",
   "colors": {
     "primary": "#1F5A3D",
     "light": "#C9A96A",
