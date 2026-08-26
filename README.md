@@ -3,7 +3,7 @@
 Mintlify documentation site for TSN.
 
 - [Whitepaper](whitepaper.md) — full protocol specification
-- [Get Started](overview/introduction.md)
+- [Get Started](developers/getting-started.md)
 
 ## Run locally
 

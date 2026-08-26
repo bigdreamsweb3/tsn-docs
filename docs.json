@@ -23,7 +23,7 @@
   ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "overview/introduction"
+    "url": "developers/getting-started"
   },
   "topAnchor": {
     "name": "Whitepaper",
@@ -32,13 +32,6 @@
   },
   "navigation": {
     "groups": [
-    {
-      "group": "Overview",
-      "pages": [
-        "overview/introduction",
-        "overview/how-it-works"
-      ]
-    },
     {
       "group": "Architecture",
       "pages": [
