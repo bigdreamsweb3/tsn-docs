@@ -1,11 +1,11 @@
 {
-  "theme": "mint",
+  "theme": "palm",
   "name": "TSN",
   "logo": {
     "light": "/images/tsn-icon.png",
     "dark": "/images/tsn-icon.png"
   },
-  "favicon": "/images/tsn-icon.png",
+  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#1F5A3D",
     "light": "#C9A96A",
@@ -36,49 +36,52 @@
       "group": "Overview",
       "pages": [
         "overview/introduction",
-        "overview/how-it-works"
+        "overview/how-it-works",
+        "overview/architecture",
+        "overview/separation-of-concerns"
       ]
     },
     {
       "group": "Architecture",
       "pages": [
         "architecture/trust-model",
-        "architecture/cross-chain",
-        "architecture/settlement-domains"
-      ]
-    },
-    {
-      "group": "Privacy",
-      "pages": [
-        "privacy/current-model",
-        "privacy/mpc-settlement",
-        "privacy/roadmap"
-      ]
-    },
-    {
-      "group": "Security",
-      "pages": [
-        "security/threat-model",
-        "security/invariants"
+        "architecture/identity-and-routing",
+        "architecture/mother-authority",
+        "architecture/node-receiver-cranker",
+        "architecture/epoch-treasury",
+        "architecture/tcap"
       ]
     },
     {
       "group": "Developers",
       "pages": [
         "developers/getting-started",
-        "developers/settlement-flow"
+        "developers/payment-intent-lifecycle",
+        "developers/funding-and-accepted-intent",
+        "developers/confidential-settlement",
+        "developers/tcap-tip-credits",
+        "developers/replay-and-retries"
       ]
     },
     {
-      "group": "Guides",
+      "group": "Security",
       "pages": [
-        "guides/cross-chain-settlement"
+        "security/invariants",
+        "security/threat-model",
+        "security/authority-and-keys",
+        "security/fail-closed",
+        "security/replay-protection",
+        "security/operator-boundaries"
       ]
     },
     {
       "group": "TrustLink Labs",
       "pages": [
-        "about/trustlink-labs"
+        "about/trustlink-labs",
+        "about/what-were-building",
+        "about/engineering-principles",
+        "about/current-technology",
+        "about/contribute"
       ]
     }
     ]
@@ -86,5 +89,11 @@
   "footerSocials": {
     "x": "https://x.com/0xbigdream",
     "github": "https://github.com/bigdreamsweb3/trustlink-pay"
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/Trustlink-Labs",
+      "x": "https://x.com/TrustLinkLabs"
+    }
   }
 }
