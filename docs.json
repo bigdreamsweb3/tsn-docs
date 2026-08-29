@@ -1,6 +1,6 @@
 {
   "theme": "palm",
-  "name": "TSN",
+  "name": "Transfer Settlement Network",
   "logo": {
     "light": "/images/tsn-icon.png",
     "dark": "/images/tsn-icon.png"
@@ -31,67 +31,30 @@
     "url": "about/trustlink-labs"
   },
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Documentation",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "overview/introduction",
-              "developers/getting-started",
-              "overview/how-it-works"
-            ]
-          },
-          {
-            "group": "Concepts",
-            "pages": [
-              "overview/architecture",
-              "overview/separation-of-concerns",
-              "architecture/trust-model",
-              "architecture/identity-and-routing",
-              "architecture/mother-authority",
-              "architecture/node-receiver-cranker",
-              "architecture/epoch-treasury",
-              "architecture/tcap"
-            ]
-          },
-          {
-            "group": "Guides",
-            "pages": [
-              "developers/payment-intent-lifecycle",
-              "developers/funding-and-accepted-intent",
-              "developers/confidential-settlement",
-              "developers/tcap-tip-credits",
-              "developers/replay-and-retries"
-            ]
-          },
-          {
-            "group": "Security",
-            "pages": [
-              "security/invariants",
-              "security/threat-model",
-              "security/authority-and-keys",
-              "security/fail-closed",
-              "security/replay-protection",
-              "security/operator-boundaries"
-            ]
-          }
+        "group": "Get Started",
+        "pages": [
+          "index",
+          "how-a-payment-feels",
+          "architecture",
+          "faq"
         ]
       },
       {
-        "tab": "About",
-        "groups": [
-          {
-            "group": "TrustLink Labs",
-            "pages": [
-              "about/trustlink-labs",
-              "about/what-were-building",
-              "about/engineering-principles",
-              "about/current-technology",
-              "about/contribute"
-            ]
-          }
+        "group": "Protocol Layers",
+        "pages": [
+          "layers/tsn",
+          "layers/tin",
+          "layers/gpru",
+          "layers/tcap"
+        ]
+      },
+      {
+        "group": "Operators",
+        "pages": [
+          "operators/tsn-node",
+          "operators/tsn-cranker"
         ]
       }
     ]
@@ -103,7 +66,24 @@
   "footer": {
     "socials": {
       "github": "https://github.com/Trustlink-Labs",
-      "x": "https://x.com/TrustLinkLabs"
+      "x": "https://x.com/TrustLinkLabs",
+      "website": "https://tsn-protocol.blogspot.com"
     }
+  },
+  "navbar": {
+    "links": [
+      {
+        "href": "https://tsn-protocol.blogspot.com",
+        "label": "Blog"
+      },
+      {
+        "href": "https://github.com/Trustlink-Labs",
+        "label": "GitHub"
+      },
+      {
+        "href": "https://x.com/TrustLinkLabs",
+        "label": "Follow on X"
+      }
+    ]
   }
 }
